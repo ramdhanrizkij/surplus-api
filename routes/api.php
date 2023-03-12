@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -29,4 +30,12 @@ Route::prefix('categories')->group(function(){
     Route::put('/{id}',[CategoryController::class,'save']);
     Route::get('/{id}',[CategoryController::class,'getById']);
     Route::delete('/{id}',[CategoryController::class,'delete']);
+});
+
+Route::prefix('product')->group(function(){
+    Route::get('/',[ProductController::class,'index']);
+    Route::post('/',[ProductController::class,'store']);
+    Route::put('/{id}',[ProductController::class,'save']);
+    Route::get('/{id}',[ProductController::class,'getById']);
+    Route::delete('/{id}',[ProductController::class,'delete']);
 });
