@@ -10,6 +10,11 @@ use DB;
 
 class ProductController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:sanctum')->except('index');
+    }
+    
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
