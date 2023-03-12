@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Surplus API",
-    "dateExported": "2023-03-12T05:29:09.913Z",
+    "dateExported": "2023-03-12T05:34:18.415Z",
     "version": "1.1",
     "folders": [
         {
@@ -43,12 +43,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2023-03-12T03:27:28.538Z",
-            "modified": "2023-03-12T03:31:53.400Z",
+            "modified": "2023-03-12T05:31:38.786Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\":\"Ramdhan Rizki\",\n  \"email\":\"ramdhanrizkij@gmail.com\",\n  \"password\":\"admin12345\",\n  \"confirm_password\":\"admin12345\"\n}",
+                "raw": "{\n  \"name\":\"Ramdhan Rizki\",\n  \"email\":\"ramdhanrizki21@gmail.com\",\n  \"password\":\"admin12345\",\n  \"confirm_password\":\"admin12345\"\n}",
                 "form": []
             },
             "tests": []
@@ -62,12 +62,12 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2023-03-12T03:36:52.423Z",
-            "modified": "2023-03-12T03:37:47.593Z",
+            "modified": "2023-03-12T05:31:51.054Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\":\"ramdhanrizkij@gmail.com\",\n  \"password\":\"admin12345\"\n}",
+                "raw": "{\n  \"email\":\"ramdhanrizki21@gmail.com\",\n  \"password\":\"admin12345\"\n}",
                 "form": []
             },
             "tests": []
@@ -198,11 +198,11 @@
             "colId": "113f729a-9569-4ebd-821f-4c489f99cd64",
             "containerId": "20371e58-2aa6-4054-a71b-b20789cfe222",
             "name": "Delete Category",
-            "url": "http://localhost:8000/api/categories/6",
+            "url": "http://localhost:8000/api/categories/1",
             "method": "DELETE",
             "sortNum": 80000,
             "created": "2023-03-12T04:01:27.002Z",
-            "modified": "2023-03-12T05:20:04.983Z",
+            "modified": "2023-03-12T05:32:08.607Z",
             "headers": [
                 {
                     "name": "Accept",
@@ -254,7 +254,7 @@
             "method": "POST",
             "sortNum": 100000,
             "created": "2023-03-12T04:30:15.496Z",
-            "modified": "2023-03-12T04:40:26.913Z",
+            "modified": "2023-03-12T05:33:34.326Z",
             "headers": [
                 {
                     "name": "Accept",
@@ -279,7 +279,7 @@
                 "files": [
                     {
                         "name": "file",
-                        "value": "c:\\Users\\Ramdhan Rizki\\Pictures\\sample.jpeg"
+                        "value": "c:\\Users\\Ramdhan Rizki\\Pictures\\LOGO BYTECODE.png"
                     }
                 ]
             },
@@ -323,11 +323,11 @@
             "colId": "113f729a-9569-4ebd-821f-4c489f99cd64",
             "containerId": "9dc6c4ac-3537-4e16-866f-e1c6b7d14ec1",
             "name": "Delete Image",
-            "url": "http://localhost:8000/api/images/1",
+            "url": "http://localhost:8000/api/images/2",
             "method": "DELETE",
             "sortNum": 120000,
             "created": "2023-03-12T04:30:31.964Z",
-            "modified": "2023-03-12T04:47:04.473Z",
+            "modified": "2023-03-12T05:33:43.637Z",
             "headers": [
                 {
                     "name": "Accept",
@@ -335,6 +335,10 @@
                 }
             ],
             "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "6|43H0AgYJpNah3oCJ9KQbRm4hsXzCSoTSwtKbXu7o"
+            },
             "tests": []
         },
         {
@@ -342,11 +346,11 @@
             "colId": "113f729a-9569-4ebd-821f-4c489f99cd64",
             "containerId": "9dc6c4ac-3537-4e16-866f-e1c6b7d14ec1",
             "name": "Update Image",
-            "url": "http://localhost:8000/api/images/update/1",
+            "url": "http://localhost:8000/api/images/update/5",
             "method": "POST",
             "sortNum": 130000,
             "created": "2023-03-12T04:30:47.904Z",
-            "modified": "2023-03-12T04:46:22.530Z",
+            "modified": "2023-03-12T05:33:56.615Z",
             "headers": [],
             "params": [],
             "body": {
@@ -369,6 +373,10 @@
                     }
                 ]
             },
+            "auth": {
+                "type": "bearer",
+                "bearer": "6|43H0AgYJpNah3oCJ9KQbRm4hsXzCSoTSwtKbXu7o"
+            },
             "tests": []
         },
         {
@@ -376,13 +384,17 @@
             "colId": "113f729a-9569-4ebd-821f-4c489f99cd64",
             "containerId": "9dc6c4ac-3537-4e16-866f-e1c6b7d14ec1",
             "name": "Get Image By ID",
-            "url": "http://localhost:8000/api/images/2",
+            "url": "http://localhost:8000/api/images/5",
             "method": "GET",
             "sortNum": 140000,
             "created": "2023-03-12T04:30:55.193Z",
-            "modified": "2023-03-12T04:51:14.939Z",
+            "modified": "2023-03-12T05:34:03.512Z",
             "headers": [],
             "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "6|43H0AgYJpNah3oCJ9KQbRm4hsXzCSoTSwtKbXu7o"
+            },
             "tests": []
         },
         {
@@ -394,7 +406,7 @@
             "method": "GET",
             "sortNum": 150000,
             "created": "2023-03-12T04:31:01.471Z",
-            "modified": "2023-03-12T04:55:41.267Z",
+            "modified": "2023-03-12T05:34:10.813Z",
             "headers": [
                 {
                     "name": "Accept",
@@ -402,6 +414,10 @@
                 }
             ],
             "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "6|43H0AgYJpNah3oCJ9KQbRm4hsXzCSoTSwtKbXu7o"
+            },
             "tests": []
         },
         {
@@ -409,11 +425,11 @@
             "colId": "113f729a-9569-4ebd-821f-4c489f99cd64",
             "containerId": "90dfaca4-eede-4b3f-b13b-0e721afef2d6",
             "name": "Get All Product",
-            "url": "http://localhost:8000/api/product?perpage=10&page=1&category=1",
+            "url": "http://localhost:8000/api/product?perpage=10&page=1",
             "method": "GET",
             "sortNum": 160000,
             "created": "2023-03-12T05:11:25.548Z",
-            "modified": "2023-03-12T05:20:31.696Z",
+            "modified": "2023-03-12T05:32:19.894Z",
             "headers": [],
             "params": [
                 {
@@ -435,6 +451,7 @@
                 {
                     "name": "category",
                     "value": "1",
+                    "isDisabled": true,
                     "isPath": false
                 }
             ],
@@ -463,13 +480,17 @@
             "colId": "113f729a-9569-4ebd-821f-4c489f99cd64",
             "containerId": "90dfaca4-eede-4b3f-b13b-0e721afef2d6",
             "name": "Get Product By Id",
-            "url": "http://localhost:8000/api/product/6",
+            "url": "http://localhost:8000/api/product/3",
             "method": "GET",
             "sortNum": 180000,
             "created": "2023-03-12T05:13:32.761Z",
-            "modified": "2023-03-12T05:14:08.229Z",
+            "modified": "2023-03-12T05:33:21.802Z",
             "headers": [],
             "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "6|43H0AgYJpNah3oCJ9KQbRm4hsXzCSoTSwtKbXu7o"
+            },
             "tests": []
         }
     ]
