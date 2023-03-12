@@ -122,6 +122,7 @@ class ProductController extends Controller
         $models = Product::findOrFail($id);
         $models->categories()->detach();
         $models->images()->detach();
+        $models->delete();
         
         return response()->json([
             'status'=>200,
